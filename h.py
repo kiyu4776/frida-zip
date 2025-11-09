@@ -120,7 +120,7 @@ def spinner(message, stop_event):
     sys.stdout.write(f"\r{message} : 完了\n")
     sys.stdout.flush()
 
-def download_with_progress(url, dest_path, message="ダウンロード中"):
+def download_with_progress(url, dest_path, message=""):
     try:
         with urllib.request.urlopen(url) as response:
             total_size = int(response.headers.get('Content-Length', 0)) or 1
@@ -197,7 +197,7 @@ def get_frida_files(extracted_dir):
     download_url = "https://github.com/kiyu4776/frida-zip/raw/refs/heads/main/frida.zip"
     if not os.path.exists(frida_zip_path):
         print("必要なファイルが見つかりません。ダウンロード開始中...")
-        if not download_with_progress(download_url, frida_zip_path, "ダウンロード中"):
+        if not download_with_progress(download_url, frida_zip_path, ""):
             return frida_files
     try:
         with zipfile.ZipFile(frida_zip_path, 'r') as zip_ref:
