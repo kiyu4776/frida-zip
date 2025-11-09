@@ -13,7 +13,7 @@
 
 ### ファイル配置
 ``
- a-Shell フォルダ
+ a-Shellフォルダに
  target.ipa
  h.py
 ``
