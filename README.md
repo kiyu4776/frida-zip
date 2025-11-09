@@ -13,9 +13,9 @@
 
 ### ファイル配置
 ``
-ファイルアプリ → a-Shell フォルダ
-├── target.ipa
-└── h.py
+ a-Shell フォルダ
+ target.ipa
+ h.py
 ``
 
 あとはこれ
