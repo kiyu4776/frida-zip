@@ -18,6 +18,7 @@ _download_start_time = 0
 _downloaded_bytes = 0
 _is_download = False
 print("python スクリプト by @kiyu4776")# これケシタラダメ　MITライセンス
+# https://github.com/kiyu4776/frida-zip/edit/main
 
 def update_progress(current, total):
     global _progress_current, _progress_total, _downloaded_bytes
