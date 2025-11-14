@@ -24,7 +24,7 @@ _progress_active = False
 _download_start_time = 0
 _downloaded_bytes = 0
 _is_download = False
-print("python スクリプト by @kiyu4776")  # これケシタラダメ　MITライセンス
+print("python スクリプト by @kiyu4776 https://github.com/kiyu4776/frida-zip/")  # これケシタラダメ　MITライセンス
 
 # ダウンロード
 def download_with_progress(url, dest_path, message="ダウンロード中"):
