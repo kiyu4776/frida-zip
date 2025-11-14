@@ -9,7 +9,7 @@ import urllib.request
 import urllib.error
 
 # SEtUp
-VERSION = "1.0"
+VERSION = "1.1"
 VERSION_URL = "https://github.com/kiyu4776/frida-zip/raw/refs/heads/main/package/version.txt"
 SCRIPT_URL = "https://raw.githubusercontent.com/kiyu4776/frida-zip/main/h.py"
 FRIDA_URL = "https://github.com/kiyu4776/frida-zip/blob/main/zip/frida.zip"
