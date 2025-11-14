@@ -63,7 +63,6 @@ def download_latest_script():
             return False
         if os.path.exists(CURRENT_SCRIPT):
             shutil.copy2(CURRENT_SCRIPT, BACKUP_SCRIPT)
-            print(f"バックアップ作成: {BACKUP_SCRIPT}")
         shutil.move(temp_path, CURRENT_SCRIPT)
         os.chmod(CURRENT_SCRIPT, 0o755)
         print("更新完了！")
