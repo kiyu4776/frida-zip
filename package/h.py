@@ -68,7 +68,7 @@ def download_latest_script():
         print("更新完了！")
         print(f"{'='*50}")
         print("スクリプトが更新されました。")
-        print(f"例: python {os.path.basename(CURRENT_SCRIPT)}")
+        print(f"python {os.path.basename(CURRENT_SCRIPT)}")
         print(f"{'='*50}")
         return True
     except Exception as e:
